@@ -1,0 +1,18 @@
+<section class="form-section" >
+    <div class="text">
+        <h3>Fique por dentro</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ipsam, non nesciunt fuga corporis doloribus nobis minima! Consectetur provident, nostrum, error in tenetur blanditiis quod architecto aperiam assumenda deleniti alias.</p>
+    </div>
+    <form [formGroup]="newsletterForm">
+        <label for="name">Nome</label>
+        <input id="Name" formControlName="name">
+        <label for="email">Email</label>
+        <input id="email" formControlName="email">
+        <btn-primary 
+        btn-text="Matrícule-se"
+        (submit)="onSubmit()"
+        [disabled]="!newsletterForm.valid"
+        >
+        </btn-primary>
+    </form>
+</section>

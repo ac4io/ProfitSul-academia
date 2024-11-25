@@ -1,0 +1,64 @@
+.main-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Roboto" ,sans-serif;
+    
+    span{
+        font-size: 20px;
+        font-weight: 700;
+        color: #FBBA00;
+    }
+
+    h1{
+        font-size: 72px;
+        font-weight: 900;
+
+    }
+
+    h2{
+        margin-top: 40px;
+        font-size: 21px;
+        color: black;
+    }
+}
+
+.benefit-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    color: black;
+    gap: 70px;
+    margin: 84px auto;
+    h3{
+        font-size: 60px;
+        font-weight: 600;
+        font-family: "Roboto" ,sans-serif;
+        border-bottom: 10px solid #FBBA00;
+    }
+
+    p{
+        font-size: 40px;
+        font-style: italic;
+        font-weight: 300;
+        b{
+            background: -webkit-linear-gradient(180deg, #FBBA00, #8a650f);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-style: normal;
+        }
+    }
+}
+
+@media (min-width: 1080px){
+    .main-section{
+        flex-direction: row;
+    }
+
+    .benefit-section{
+        flex-direction: row;
+    }
+}
