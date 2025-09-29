@@ -116,3 +116,4 @@ Para contribuir, abra *issues* ou envie *pull requests*.
 
 Desenvolvido como parte da disciplina de **Front-End e Frameworks**
 Graduação em **Análise e Desenvolvimento de Sistemas – UNINASSAU**
+Alunos: Celso Borges e Anthonny Caio
